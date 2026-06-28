@@ -1,4 +1,5 @@
 int blinkCount = 0;
+int potentiometerPin = A0;
 
 void setup() {
   pinMode(13, OUTPUT);
@@ -6,10 +7,13 @@ void setup() {
 }
 
 void loop() {
+  int delayTime = analogRead(potentiometerPin);
+  delayTime = map(delayTime, 0, 1023, 100, 1000);
+
   digitalWrite(13, HIGH);
-  delay(500);
+  delay(delayTime);
   digitalWrite(13, LOW);
-  delay(500);
+  delay(delayTime);
 
   blinkCount++;
   Serial.print("Blink count: ");
