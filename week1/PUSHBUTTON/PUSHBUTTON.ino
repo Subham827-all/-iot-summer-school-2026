@@ -1,3 +1,8 @@
+/*
+ * Author      : Subham
+ * Date        : 28 June 2026
+ * Description : LED blinks when button is presses
+ */
 int buttonstate =0;
 const int LED = 3;
 
