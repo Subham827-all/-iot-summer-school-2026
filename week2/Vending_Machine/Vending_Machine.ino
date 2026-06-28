@@ -1,7 +1,7 @@
 /*
  * Author      : Subham
  * Date        : 28 June 2026
- * Description : LEDs blink initials, using array concept
+ * Description : Vending Machine System
  */
 
 enum State
