@@ -14,7 +14,8 @@ void setup() {
 
 void loop() {
   int delayTime = analogRead(potentiometerPin);
-  delayTime = map(delayTime, 0, 1023, 100, 1000);
+  delayTime = map(delayTime, 0, 1023, 100, 1000);//This fixes the issue #1 blink interval does not increase when the potentiometer is rotated to its maximum position
+  
 
   digitalWrite(13, HIGH);
   delay(delayTime);
