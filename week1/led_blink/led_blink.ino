@@ -1,3 +1,9 @@
+/*
+Author: Subham
+Date: 28-06-2026
+Description: LED blink program with serial counter and potentiometer-controlled blink speed.
+*/
+
 int blinkCount = 0;
 int potentiometerPin = A0;
 
