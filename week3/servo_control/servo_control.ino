@@ -3,10 +3,6 @@
 Project: Servo Motor Control
 Author: Subham
 Date: 30-06-2026
-
-Features:
-1. Potentiometer controls servo angle (0-180°)
-2. Button performs one full sweep (0→180→0)
 ------------------------------------------------------
 */
 
