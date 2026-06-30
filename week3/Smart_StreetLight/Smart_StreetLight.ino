@@ -2,16 +2,6 @@
 -----------------------------------------------------
 Smart Street Light
 Author: Subham
-
-Day:
-  LED OFF
-
-Night:
-  Motion -> LED 100% for 30 sec
-  No Motion -> LED 20%
-
-Serial Log:
-[HH:MM:SS] EVENT
 -----------------------------------------------------
 */
 
