@@ -3,16 +3,7 @@
 Project: Multi-Sensor Data Logger
 Author: Subham
 Date: 28-06-2026
-
-Sensors:
-1. DHT11
-2. LDR
-3. HC-SR04
-
-Output every 5 seconds:
-==================
-SENSOR LOG
-==================
+----------------------------------------------------
 */
 
 #include <DHT.h>
