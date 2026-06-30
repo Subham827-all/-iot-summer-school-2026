@@ -3,18 +3,6 @@
 Project: Environmental Monitoring Station
 Author: Subham
 Date: 30-06-2026
-
-Reads:
-- Temperature (°C)
-- Temperature (°F)
-- Humidity
-
-Outputs CSV:
-timestamp,temp_C,temp_F,humidity
-
-LED Indicators:
-Red   -> Temperature >35°C OR Humidity >80%
-Green -> Normal Conditions
 -------------------------------------------------------
 */
 
