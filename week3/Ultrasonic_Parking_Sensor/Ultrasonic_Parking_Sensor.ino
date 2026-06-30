@@ -2,16 +2,6 @@
 ---------------------------------------------------------
 Project : Ultrasonic Parking Sensor
 Author  : Subham
-
-Distance Formula:
-distance = (duration * 0.034) / 2
-
-SAFE        : > 50 cm
-WARNING     : 20 - 50 cm
-DANGER      : 10 - 20 cm
-STOP        : < 10 cm
-
-Uses millis() (No delay)
 ---------------------------------------------------------
 */
 
